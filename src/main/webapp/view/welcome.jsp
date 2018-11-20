@@ -21,7 +21,7 @@
 				margin-top: 50px; margin-left: 0px; margin-right: 0px;
 			}
 			.menu {
-				height: 100%; position: fixed; background-color: #f8f8f8;
+				height: 100%; width: 170px; position: fixed; background-color: #f8f8f8;
 			}
 			.menu .navbar-nav li {
 				width: 100%; border-bottom: 1px solid #e7e7e7;
@@ -62,7 +62,7 @@
 		    		</div>
 		    	</div>
 		    	<div class="container-fluid">
-		    		<div class="inner-jsp panel-body" style="margin-left: 210px;">
+		    		<div class="inner-jsp panel-body" style="margin-left: 170px;">
 		    			<c:forEach begin="0" end="2" varStatus="loop">
 		    				<div class="col-md-12">
 		    					<h2>${heading}</h2>
